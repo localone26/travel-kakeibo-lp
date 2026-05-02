@@ -20,12 +20,11 @@ body{font-family:-apple-system,sans-serif;margin:0;padding:0;color:#333;line-hei
 .app-card-title p{margin:0;font-size:14px;color:#666}
 .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:16px 0}
 .feature{background:#f7f7f7;border-radius:8px;padding:12px 14px}
-.feature h4{font-size:13px;margin:0 0 4px;color:#007AFF}
+.feature h4{font-size:13px;margin:0 0 4px}
 .feature p{margin:0;font-size:12px;color:#555}
-.icon-europe~.app-card-title .feature h4,.app-card.europe .feature h4{color:#0541C1}
-.badge{display:inline-block;background:#007AFF;color:#fff;font-weight:700;padding:10px 22px;border-radius:22px;text-decoration:none;font-size:14px;margin-top:8px}
+.badge{display:inline-block;color:#fff;font-weight:700;padding:10px 22px;border-radius:22px;text-decoration:none;font-size:14px;margin-top:8px}
+.badge-travel{background:#007AFF}
 .badge-europe{background:#0541C1}
-.badge-soon{background:#aaa;cursor:default}
 .footer{text-align:center;padding:28px 20px;font-size:13px;color:#888;border-top:1px solid #eee;margin-top:20px}
 .footer a{color:#007AFF;text-decoration:none}
 </style>
@@ -51,27 +50,27 @@ body{font-family:-apple-system,sans-serif;margin:0;padding:0;color:#333;line-hei
     </div>
     <div class="features">
       <div class="feature">
-        <h4>支出記録</h4>
+        <h4 style="color:#007AFF">支出記録</h4>
         <p>旅行先ごとにカテゴリ別で支出を記録</p>
       </div>
       <div class="feature">
-        <h4>リアルタイム為替換算</h4>
+        <h4 style="color:#007AFF">リアルタイム為替換算</h4>
         <p>ExchangeRate-APIで最新レートに自動換算</p>
       </div>
       <div class="feature">
-        <h4>クラウド同期</h4>
+        <h4 style="color:#007AFF">クラウド同期</h4>
         <p>Firebase Firestoreで端末をまたいで管理</p>
       </div>
       <div class="feature">
-        <h4>旅行プラン提案</h4>
+        <h4 style="color:#007AFF">旅行プラン提案</h4>
         <p>Klookと連携して現地アクティビティを検索</p>
       </div>
     </div>
-    <a class="badge" href="https://apps.apple.com/jp/app/id6745069822" target="_blank" rel="noopener">App Store でダウンロード</a>
+    <a class="badge badge-travel" href="https://apps.apple.com/jp/app/id6745069822" target="_blank" rel="noopener">App Store でダウンロード</a>
   </div>
 
   <!-- 中欧プラン -->
-  <div class="app-card europe">
+  <div class="app-card">
     <div class="app-card-header">
       <div class="app-icon icon-europe">🗺️</div>
       <div class="app-card-title">
@@ -97,7 +96,7 @@ body{font-family:-apple-system,sans-serif;margin:0;padding:0;color:#333;line-hei
         <p>GetYourGuideと連携して現地ツアーを検索</p>
       </div>
     </div>
-    <a class="badge badge-europe" href="https://apps.apple.com/jp/app/central-europe-plan/id6744534505" target="_blank" rel="noopener">App Store でダウンロード</a>
+    <a class="badge badge-europe" href="https://apps.apple.com/jp/app/id6744534505" target="_blank" rel="noopener">App Store でダウンロード</a>
   </div>
 
 </div>
